@@ -1,38 +1,89 @@
-
 <!DOCTYPE html>
-<html lang="tr">
-<head>
-   <meta charset="utf-8" /> 
-   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”> 
-   <title>HTML5 EĞİTİMLERİ</title>
-
-   <style type="text/css">
-     body {
-       max-width: 1200px;
-       margin: auto;
-     }
-     header, nav, section, article, footer {
-      border: 1px solid grey;
-      margin: 25px;
-      padding: 10px;
-     }
-
-     nav ul li,
-     nav ol li { 
-       display: inline; 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style type="text/css">
+      body {
+        max-width: 1200px;
+        margin: auto;
       }
-   </style>
+      header,
+      nav,
+      section,
+      article,
+      footer {
+        border: 1px solid grey;
+        margin: 25px;
+        padding: 10px;
+      }
 
-</head>
-
-<body>
-
-  <!-- Header  -->  
-  <!-- Menu  --> 
- 
-  <!-- Content  --> 
-
-  <!-- Footer  -->  
-
-</body>
+      nav ul li,
+      nav ol li {
+        display: inline;
+      }
+    </style>
+    <title>HTML İSKELET YAPISI</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML İSKELET YAPISI</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Anasayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Kalite</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- Bölüm 1 -->
+      <section>
+        <h1>Ünlü Ülkeler</h1>
+        <article>
+          <h1>Türkiye</h1>
+          <p>
+            <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+            <i
+              >Dolorum autem maxime ipsa aliquid facere, incidunt corrupti
+              voluptate molestiae labore voluptates placeat nobis veritatis
+              omnis eius praesentium.</i
+            >
+            <u
+              >Pariatur alias voluptatibus corrupti voluptas architecto
+              consectetur explicabo magni!</u
+            >
+          </p>
+        </article>
+        <article>
+          <h1>İrlanda</h1>
+          <p>
+            <b>Lorem ipsum dolor sit amet consectetur adipisicing elit.</b>
+            <i
+              >Dolorum autem maxime ipsa aliquid facere, incidunt corrupti
+              voluptate molestiae labore voluptates placeat nobis veritatis
+              omnis eius praesentium.</i
+            >
+            <u
+              >Pariatur alias voluptatibus corrupti voluptas architecto
+              consectetur explicabo magni!</u
+            >
+          </p>
+        </article>
+      </section>
+      <!-- Bölüm 2 -->
+      <section>
+        <h1>İletişim</h1>
+        Kullanıcı Adı: <input type="text" placeholder="Zorunlu Alan" /> Mail:
+        <input type="email" placeholder="Zorunlu Alan" /> Konu:
+        <input type="text" placeholder="Zorunlu Alan" /> Konu:
+        <input type="checkbox" name="" id="" />
+        <button type="reset">Temizle</button>
+        <button type="submit">Gönder</button>
+      </section>
+    </main>
+    <footer>&#169; 2022 Tüm hakları saklıdır.</footer>
+  </body>
 </html>
